@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* tanda bintang ini tugasnya memamnggil satu folder yanag kita buat */
+
+
+*{
+    font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+    /* scroll untuk navigasi ke nav lain dengan scroll smotch */
+    scroll-behavior: smooth;
+}
+
+.hero{
+width: 100%;
+
+}
+
+nav{
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    padding: 0 8%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 24px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+.content img{
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+}
+
+.content h3{
+    color: aliceblue;
+    position: absolute;
+    font-size: 36px;
+    top: 22rem;
+    left: 8%;
+    /* transform: translateY(-50%);
+ */
+}
+
+.content h1{
+    color: yellowgreen;
+    position: absolute;
+    font-size: 70px;
+    top: 25rem;
+    left: 8%;
+    /* transform: translateY(-50%);
+ */
+
+}
+
+.content h2{
+    color: white;
+    position: absolute;
+    font-size: 85px;
+    top: 30rem;
+    left: 8%;
+    /* transform: translateY(-50%);
+ */
+}
+
+.about {
+    width: 100%;
+    background-color: yellowgreen;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img{
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.about-text{
+    color: white;
+    font-size: 25px;
+    width: 550px;
+}
+
+.main {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
